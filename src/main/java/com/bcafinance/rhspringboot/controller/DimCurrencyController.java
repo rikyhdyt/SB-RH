@@ -77,7 +77,7 @@ public class DimCurrencyController {
         }
     }
 
-    @DeleteMapping("/dimcurrencys/6832BLE")
+    @DeleteMapping("/dimcurrencys/deleteall")
     public ResponseEntity<String> deleteAll() {
         try {
             int numRows = dimCurrencyRepository.deleteAll();
